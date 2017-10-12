@@ -45,3 +45,8 @@
     background-color: #c20f54 !important;
     border-bottom: 3px solid white;
 }
+.dirigido .container .btn-outline-light:active{
+    color: #fff;
+    background-color: linear-gradient(-45deg, #B91254 0%, #314758 100%) !important;
+    border-color: #f8f9fa;
+}
