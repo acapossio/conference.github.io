@@ -11,7 +11,7 @@
     <script src="https://use.fontawesome.com/042e068201.js"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-pills">
     <section class="landing">
       <div class="container d-flex align-items-center">
           <div class="row align-self-center">
@@ -23,28 +23,28 @@
       </div>
     </section>
 
-    <nav class="navbar navbar-expand-md title-divider">
+    <nav id="navbar-pills" class="navbar navbar-expand-md title-divider fixed-top">
         <a class="navbar-brand ml-5" href="#"><img width="150" src="img/logo-nav.png" alt="CE 2017"></a>
         <button class="navbar-toggler title-divider" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="nav nav-pills ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-light mx-5" href="#programa">Programa <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light mx-4" href="#expositores">Expositores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light mx-5" href="#expositores">Expositores</a>
+              <a class="nav-link text-light mx-4" href="#programa">Programa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light mx-5" href="#sponsors">Sponsors</a>
+              <a class="nav-link text-light mx-4" href="#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light mx-5" href="#edicionesAnteriores">Ediciones anterios</a>
+                <a class="nav-link text-light mx-4" href="#edicionesAnteriores">Ediciones anterios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light mx-5" href="#registrarse">Registrarse</a>
+                <a class="btn btn-outline-light mx-4" href="#registrarse">Registrarse</a>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@
               <p>Construyendo Lealtad, Compromiso y Confianza</p>
             </div>
             <div class="col">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/1lfXBIDzvkA" frameborder="0" allowfullscreen></iframe>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/1lfXBIDzvkA" frameborder="0" allowfullscreen></iframe>
               <p class="text-center color-principal"> <i> "Un cliente puede olvidar lo que se le prometió pero jamás olvidará cómo se sintió"</i></p>
             </div>
           </div>
