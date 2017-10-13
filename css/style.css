@@ -31,7 +31,7 @@
 .footer .back-white{
     background-color: white;
 }
-.dirigido, .reserva, .inversion, .title-divider{
+.dirigido, .reserva, .inversion, .title-divider, .reserva a{
     color:white !important;
 }
 .color-principal{
